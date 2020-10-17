@@ -1,7 +1,7 @@
 {
   "name": "react-hover-tooltip",
-  "version": "0.0.1",
-  "description": "Simple, tiny, opinionated tooltip component that appears on hover",
+  "version": "0.0.2",
+  "description": "Simple, opinionated tooltip component that appears on hover",
   "main": "dist/index.js",
   "module": "dist/module.js",
   "repository": "https://github.com/gkaemmer/react-hover-tooltip",
