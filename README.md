@@ -2,7 +2,7 @@
 
 Simple, opinionated tooltip. It shows up on mouse hover or on element focus, and it is always anchored to the center of `props.children`.
 
-<img src="react-hover-tooltip.gif" width="270" />
+<img src="react-hover-tooltip.gif" width="540" />
 
 ## Installation
 
