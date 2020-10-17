@@ -1,0 +1,6 @@
+{
+  "name": "react-hover-tooltip-example",
+  "dependencies": {
+    "react-hover-tooltip": "^0.0.1"
+  }
+}

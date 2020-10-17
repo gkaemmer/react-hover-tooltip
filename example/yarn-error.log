@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/Cellar/node/14.9.0/bin/node /usr/local/Cellar/yarn/1.22.5/libexec/bin/yarn.js add next react react-dom
+
+PATH: 
+  /Users/grahamkaemmer/.poetry/bin:/Users/grahamkaemmer/Downloads/google-cloud-sdk/bin:/Users/grahamkaemmer/homebrew/bin:/Users/grahamkaemmer/.pyenv/plugins/pyenv-virtualenv/shims:/Users/grahamkaemmer/.pyenv/shims:/Users/grahamkaemmer/.pyenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/grahamkaemmer/bin:/Users/grahamkaemmer/Library/Python/3.7/bin:/Users/grahamkaemmer/.node/bin:./node_modules/.bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.9.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/react-hover-tooltip: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:66988:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:140749:22)
+      at Request.emit (events.js:314:20)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:141721:10)
+      at Request.emit (events.js:314:20)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:141643:12)
+      at Object.onceWrapper (events.js:420:28)
+      at IncomingMessage.emit (events.js:326:22)
+      at endReadableNT (_stream_readable.js:1244:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "react-hover-tooltip-example",
+    "dependencies": {
+      "react-hover-tooltip": "^0.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

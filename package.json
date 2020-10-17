@@ -1,0 +1,44 @@
+{
+  "name": "react-hover-tooltip",
+  "version": "0.0.1",
+  "description": "Simple, tiny, opinionated tooltip component that appears on hover",
+  "main": "dist/index.js",
+  "module": "dist/module.js",
+  "repository": "https://github.com/gkaemmer/react-hover-tooltip",
+  "author": "Graham Kaemmer",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run build:clean && npm run build:dist",
+    "build:clean": "rm -rf dist",
+    "build:dist": "rollup -c",
+    "prepublish": "npm run build",
+    "dev:link": "npm link && (cd example && npm link react-hover-tooltip)",
+    "start": "npm run dev:link && (cd example && npm install && next dev)"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@rollup/plugin-typescript": "^6.0.0",
+    "@types/node": "^14.11.10",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-transition-group": "^4.4.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "rollup": "^2.32.0",
+    "tslib": "^2.0.3",
+    "typescript": "^4.0.3"
+  },
+  "peerDependencies": {
+    "react": "16",
+    "react-dom": "16"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.35",
+    "@emotion/styled": "^10.0.27",
+    "react-transition-group": "^4.4.1"
+  }
+}
